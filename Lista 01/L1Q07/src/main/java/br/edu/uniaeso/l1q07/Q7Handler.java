@@ -39,7 +39,7 @@ class Q7Handler implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         String buttonText = ((JButton) (e.getSource())).getText();
         if (buttonText == "Ok") {
-            System.out.println("teste");
+           
             getQ7Calculator().adicionarNum(Integer.parseInt(getNumField().getText()));
         } else if (buttonText == "Exibir") {
             Integer maior = 0, menor = 99999, soma = 0;
